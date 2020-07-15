@@ -1,15 +1,19 @@
-import React, { Fragment } from "react";
+import React from "react";
+import { Provider } from "react-redux";
 import Header from "./components/Header";
 import PortfolioList from "./components/PortfolioList";
+import store from "./store/storeConfig";
+import Introduction from "./components/Introduction";
 
 const App = () => {
   return (
-    <Fragment>
+    <Provider store={store} >
       <div className="container">
         <Header />
+        <Introduction />
         <PortfolioList />
       </div>
-    </Fragment>
+    </Provider>
   )
 };
 
