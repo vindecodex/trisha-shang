@@ -1,0 +1,15 @@
+.introduction {
+  border-bottom: 1px solid #ececec;
+  border-top: 1px solid #ececec;
+  text-align: center;
+  margin: 70px 0;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0 0 20px;
+}
+
+p {
+  line-height: 200%;
+}

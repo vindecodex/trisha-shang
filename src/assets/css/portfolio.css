@@ -1,0 +1,16 @@
+.portfolio-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.portfolio-item {
+  margin: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.portfolio-item img {
+  width: 320px;
+  height: auto;
+}
